@@ -1,0 +1,166 @@
+/* Blue Header */
+.blue-header {
+  background: linear-gradient(135deg, #022358 0%, #022358 100%);
+  color: white;
+  padding: 8px 0;
+}
+
+.blue-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company-logo {
+  background: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.company-name {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Contact Top Bar */
+.top-bar {
+  background: #374151;
+  color: white;
+  padding: 6px 0;
+  font-size: 0.85rem;
+}
+
+.top-bar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar-left, .top-bar-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.top-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.top-bar-item:hover {
+  color: #022358;
+}
+
+.top-bar-item i {
+  color: #022358;
+}
+
+/* Main Header */
+.header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo h1 {
+  color: #022358;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #022358;
+}
+
+.express-order-btn {
+  background: #022358;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.express-order-btn:hover {
+  background: #022358;
+}
+
+@media (max-width: 768px) {
+  .top-bar-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 10px 20px;
+  }
+  
+  .top-bar-left, .top-bar-right {
+    gap: 1rem;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 20px;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+}
