@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Simba/static/css/main.b67e3a9b.css",
+    "main.js": "/Simba/static/js/main.bbaab6df.js",
+    "static/media/carousel-1.jpg": "/Simba/static/media/carousel-1.d6af949e2ae454548b2a.jpg",
+    "static/media/cement-42-5n.jpg": "/Simba/static/media/cement-42-5n.6dcbb212a870bf99df0b.jpg",
+    "static/media/carousel-2.jpg": "/Simba/static/media/carousel-2.e56922265946c1943c06.jpg",
+    "static/media/carousel-3.jpg": "/Simba/static/media/carousel-3.98c0a1dbb86bbdcd87ad.jpg",
+    "static/media/hero-bg.jpg": "/Simba/static/media/hero-bg.98c0a1dbb86bbdcd87ad.jpg",
+    "static/media/hoop-iron.jpg": "/Simba/static/media/hoop-iron.188c8b2d1444ebad8fa4.jpg",
+    "static/media/logo.png": "/Simba/static/media/logo.1ceeead0de17018e66e9.png",
+    "static/media/carousel-4.jpg": "/Simba/static/media/carousel-4.74b5635896bda3b517e0.jpg",
+    "static/media/carousel-5.jpg": "/Simba/static/media/carousel-5.540d8524b7cc6b4126b9.jpg",
+    "static/media/painting-blocks.jpg": "/Simba/static/media/painting-blocks.5b0ced01f3d5837bd2aa.jpg",
+    "static/media/binding-wire.jpg": "/Simba/static/media/binding-wire.f0895da7295546363019.jpg",
+    "static/media/steel-bar.jpg": "/Simba/static/media/steel-bar.c5b1d249f7983876810f.jpg",
+    "static/media/cement-32-5r.jpg": "/Simba/static/media/cement-32-5r.aca9a9be3bcd18e7b539.jpg",
+    "static/media/slick.svg": "/Simba/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Simba/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Simba/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Simba/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Simba/index.html",
+    "main.b67e3a9b.css.map": "/Simba/static/css/main.b67e3a9b.css.map",
+    "main.bbaab6df.js.map": "/Simba/static/js/main.bbaab6df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67e3a9b.css",
+    "static/js/main.bbaab6df.js"
+  ]
+}
