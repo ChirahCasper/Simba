@@ -16,8 +16,7 @@ export const products = [
     id: 2,
     name: "Simba Power 42.5N",
     image: productImages.cement42,
-    description:
-    "42.5 bag Simba Power 42.5N is a high-grade cement used in specialized construction projects, such as bridges, towers, pavements, highways, and high-rise towers. It's a stronger class of cement that can withstand higher pressures and loads.",
+    description: "42.5 bag Simba Power 42.5N is a high-grade cement used in specialized construction projects, such as bridges, towers, pavements, highways, and high-rise towers. It's a stronger class of cement that can withstand higher pressures and loads.",
     price: 690,
     originalPrice: 850,
     badge: "SAVE Ksh 110",
@@ -56,7 +55,7 @@ export const products = [
     id: 5,
     name: "Binding Wire 16 Gauge (25kg)",
     image: productImages.bindingWire,
-    description: "25Kg Roll Shop for this Binding Wire 16G 25kg 1Roll on Kenya's largest online store. For All your Quality Assured Trusted Brands. ✅ Features: • Made Of Galvanized, Plastic Coated Annealed And Stainless Steel Wire • Soft, Good Ductility And High Strength • Used For Binding Reinforcement Construction • Made Of Mild Steel Inker • Easily Bent And Tied In A Knot • Matte Or Shiny Finish 📏 Specifications: • Gauge: 16 • Weight: 25 Kg" ,
+    description: "25Kg Roll Shop for this Binding Wire 16G 25kg 1Roll on Kenya's largest online store. For All your Quality Assured Trusted Brands. ✅ Features: • Made Of Galvanized, Plastic Coated Annealed And Stainless Steel Wire • Soft, Good Ductility And High Strength • Used For Binding Reinforcement Construction • Made Of Mild Steel Inker • Easily Bent And Tied In A Knot • Matte Or Shiny Finish 📏 Specifications: • Gauge: 16 • Weight: 25 Kg",
     price: 3250,
     originalPrice: 3800,
     badge: "SAVE Ksh 250",
@@ -73,5 +72,121 @@ export const products = [
     badge: "SAVE Ksh 250",
     inStock: true,
     rating: 5
+  },
+  {
+    id: 7,
+    name: "Ordinary Nails 2\" (500gm)",
+    image: productImages.ordinaryNails2,
+    description: "High-quality ordinary nails perfect for general construction and carpentry work. Made from durable steel with excellent holding power for wood applications.",
+    price: 500,
+    originalPrice: 650,
+    badge: "SAVE Ksh 150",
+    inStock: true,
+    rating: 4.3
+  },
+  {
+    id: 8,
+    name: "Ordinary Nails 3\"",
+    image: productImages.ordinaryNails3,
+    description: "Premium 3-inch ordinary nails ideal for framing and structural work. Galvanized coating provides rust resistance for long-lasting performance.",
+    price: 200,
+    originalPrice: 300,
+    badge: "SAVE Ksh 100",
+    inStock: true,
+    rating: 4.4
+  },
+  {
+    id: 9,
+    name: "Ordinary Nails 4\"",
+    image: productImages.ordinaryNails4,
+    description: "Heavy-duty 4-inch nails suitable for major construction projects. Excellent grip and penetration for secure fastening in various materials.",
+    price: 450,
+    originalPrice: 600,
+    badge: "SAVE Ksh 150",
+    inStock: true,
+    rating: 4.5
+  },
+  {
+    id: 10,
+    name: "Ordinary Nails 5\"",
+    image: productImages.ordinaryNails5,
+    description: "Professional-grade 5-inch nails for demanding construction applications. Superior strength and durability for heavy-duty projects.",
+    price: 450,
+    originalPrice: 580,
+    badge: "SAVE Ksh 130",
+    inStock: true,
+    rating: 4.4
+  },
+  {
+    id: 11,
+    name: "Ordinary Nails 6\"",
+    image: productImages.ordinaryNails6,
+    description: "Extra-long 6-inch nails perfect for timber framing and thick material assembly. Engineered for maximum holding power and reliability.",
+    price: 450,
+    originalPrice: 600,
+    badge: "SAVE Ksh 150",
+    inStock: true,
+    rating: 4.6
+  },
+  {
+    id: 12,
+    name: "Roofing Nails",
+    image: productImages.roofingNails,
+    description: "Specialized roofing nails with wide heads for secure attachment of roofing materials. Galvanized coating prevents corrosion and extends lifespan.",
+    price: 650,
+    originalPrice: 850,
+    badge: "SAVE Ksh 200",
+    inStock: true,
+    rating: 4.5
+  },
+  {
+    id: 13,
+    name: "Expanded Metal 8lby 1by",
+    image: productImages.expandedMetal,
+    description: "High-quality expanded metal mesh perfect for fencing, security barriers, and construction reinforcement. Durable steel construction with excellent ventilation and visibility.",
+    price: 2300,
+    originalPrice: 2800,
+    badge: "SAVE Ksh 500",
+    inStock: true,
+    rating: 4.4
+  },
+  {
+    id: 14,
+    name: "Goose Wire",
+    image: productImages.gooseWire,
+    description: "Versatile galvanized wire mesh suitable for poultry enclosures, garden fencing, and general barrier applications. Easy to install with excellent durability.",
+    price: 300,
+    originalPrice: 450,
+    badge: "SAVE Ksh 150",
+    inStock: true,
+    rating: 4.2
+  },
+  {
+    id: 15,
+    name: "Shamba Chain Link 4ft 14G",
+    image: productImages.shambaChainLink,
+    description: "Premium 4-foot chain link fencing with 14-gauge wire construction. Ideal for agricultural, residential, and commercial boundary marking with superior strength.",
+    price: 3750,
+    originalPrice: 4500,
+    badge: "SAVE Ksh 750",
+    inStock: true,
+    rating: 4.6
+  },
+  {
+    id: 16,
+    name: "Corrugated Iron Sheet Tile 30",
+    image: productImages.corrugatedTile,
+    description: "Premium quality corrugated iron sheets available in multiple colors and sizes. Weather-resistant with excellent thermal properties for durable roofing solutions.",
+    sizes: [
+      { size: "3m - Brick Red", price: "KSh 1,500" },
+      { size: "2.5m - Bright Red", price: "KSh 1,300" },
+      { size: "2m - Graphite", price: "KSh 1,200" },
+      { size: "3m - Green", price: "KSh 1,500" },
+      { size: "2.5m - Tile Red", price: "KSh 1,300" }
+    ],
+    badge: "Save Ksh 400",
+    contactForPricing: true,
+    inStock: true,
+    rating: 4.7
   }
 ];

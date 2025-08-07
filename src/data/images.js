@@ -8,13 +8,25 @@ import carousel3 from '../assets/images/carousel/carousel-3.jpg';
 import carousel4 from '../assets/images/carousel/carousel-4.jpg';
 import carousel5 from '../assets/images/carousel/carousel-5.jpg';
 
-// Product images
+// Product images - Existing
 import cement32 from '../assets/images/products/cement-32-5r.jpg';
 import cement42 from '../assets/images/products/cement-42-5n.jpg';
 import paintingBlocks from '../assets/images/products/painting-blocks.jpg';
 import steelBar from '../assets/images/products/steel-bar.jpg';
 import bindingWire from '../assets/images/products/binding-wire.jpg';
 import hoopIron from '../assets/images/products/hoop-iron.jpg';
+
+// Product images - New additions
+import ordinaryNails2 from '../assets/images/products/ordinaryNails2.jpg';
+import ordinaryNails3 from '../assets/images/products/ordinaryNails3.jpg';
+import ordinaryNails4 from '../assets/images/products/ordinaryNails4.jpg';
+import ordinaryNails5 from '../assets/images/products/ordinaryNails5.jpg';
+import ordinaryNails6 from '../assets/images/products/ordinaryNails6.jpg';
+import roofingNails from '../assets/images/products/roofingNails.jpg';
+import expandedMetal from '../assets/images/products/expandedMetal.jpg';
+import gooseWire from '../assets/images/products/gooseWire.jpg';
+import shambaChainLink from '../assets/images/products/shambaChainLink.jpg';
+import corrugatedTile from '../assets/images/products/corrugatedTile.jpg';
 
 export const heroImages = {
   background: heroBg
@@ -54,5 +66,15 @@ export const productImages = {
   paintingBlocks,
   steelBar,
   bindingWire,
-  hoopIron
+  hoopIron,
+  ordinaryNails2,
+  ordinaryNails3,
+  ordinaryNails4,
+  ordinaryNails5,
+  ordinaryNails6,
+  roofingNails,
+  expandedMetal,
+  gooseWire,
+  shambaChainLink,
+  corrugatedTile,
 };
