@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Simba/static/css/main.b67e3a9b.css",
-    "main.js": "/Simba/static/js/main.a91a749e.js",
+    "main.js": "/Simba/static/js/main.44a3e27a.js",
     "static/media/carousel-1.jpg": "/Simba/static/media/carousel-1.d6af949e2ae454548b2a.jpg",
     "static/media/ordinaryNails2.jpg": "/Simba/static/media/ordinaryNails2.045e0b2ff9f83e90c065.jpg",
     "static/media/cement-42-5n.jpg": "/Simba/static/media/cement-42-5n.6dcbb212a870bf99df0b.jpg",
@@ -31,10 +31,10 @@
     "static/media/slick.woff": "/Simba/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Simba/index.html",
     "main.b67e3a9b.css.map": "/Simba/static/css/main.b67e3a9b.css.map",
-    "main.a91a749e.js.map": "/Simba/static/js/main.a91a749e.js.map"
+    "main.44a3e27a.js.map": "/Simba/static/js/main.44a3e27a.js.map"
   },
   "entrypoints": [
     "static/css/main.b67e3a9b.css",
-    "static/js/main.a91a749e.js"
+    "static/js/main.44a3e27a.js"
   ]
 }
