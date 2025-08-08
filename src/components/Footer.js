@@ -58,12 +58,16 @@ const Footer = () => {
               <div className="contact-details">
                 <p><strong>Phone</strong></p>
                 <p><a href="tel:0798358526">0798358526</a></p>
+
+                <p><strong>Phone2</strong></p>
+                <p><a href="tel:010005000">010005000</a></p>
                 
                 <p><strong>WhatsApp</strong></p>
                 <p><a href="https://wa.me/254105631176">0105631176</a></p>
                 
                 <p><strong>Email</strong></p>
                 <p><a href="mailto:info@simbacement.com">info@simbacement.com</a></p>
+                
               </div>
             </div>
 
